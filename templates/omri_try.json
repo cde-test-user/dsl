@@ -2,14 +2,9 @@
 "objects": [{
 "applications": [],
 "environments": [],
-"name": "blaze ep test",
-"kind": "Endpointxxx",
+"name1": "blaze ep test",
+"kind": "Endpoint",
 "plugin": "BlazeMeter/2.1",
-"type": "BlazeMeter",
-"parameters": {
-"apiKey": "ngyggie6czlqzb26vx1t",
-"authType": "Legacy",
-"url": "https://a.blazemeter.com"
-}
+"type": "BlazeMeter"
 }]
 }
