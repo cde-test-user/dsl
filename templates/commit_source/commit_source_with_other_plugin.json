@@ -1,0 +1,17 @@
+{
+    "objects": [{
+        "applicationVersion": "Local|CommitSource Application ${unique}/555",
+        "name": "Imported Commmit Source ${unique}",
+        "kind": "CommitSource",
+        "type": "Run Failed Test",
+        "parameters": {
+            "error": "Bang"
+        },
+        "endpoint": "Other Plugin Endpoint ${unique}",
+        "plugin": "TestTask/1.0"
+    }],
+	"parameters": [{
+		"name": "unique",
+		"value": "unique"
+	}]
+}
