@@ -1,0 +1,19 @@
+{
+    "objects": [{
+        "applicationVersion": "Local|CommitSource Application ${unique}/555",
+        "name": "Imported Commmit Source ${unique}",
+        "kind": "CommitSource",
+        "type": "Import Commits",
+        "parameters": {
+            "name": "Pennywise",
+            "city": "Derry",
+            "state": "Maine"
+        },
+        "endpoint": "IT Empty ${unique}",
+        "plugin": "CommitSourcePlugin/1.1"
+    }],
+	"parameters": [{
+		"name": "unique",
+		"value": "unique"
+	}]
+}
