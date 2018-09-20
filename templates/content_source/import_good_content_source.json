@@ -5,8 +5,7 @@
         "kind": "ContentSource",
         "type": "Add Content With Different Selections",
         "parameters": {
-            "capitals": "Mexico City,Jerusalem,Rome",
-			"states": "New York"
+            "capitals": "Mexico City,Jerusalem,Rome"
         },
         "endpoint": "Globe ${unique}",
         "plugin": "42_CC_manifest/2.0.1"
