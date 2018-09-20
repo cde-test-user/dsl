@@ -1,16 +1,15 @@
 {
     "objects": [{
-        "applicationVersion": "Local|CommitSource Application ${unique}/555",
-        "name": "Imported Commmit Source ${unique}",
-        "kind": "CommitSource",
-        "type": "Import Commits",
+        "applicationVersion": "Local|ContentSource Application ${unique}/991",
+        "name": "Imported Content Source ${unique}",
+        "kind": "ContentSource",
+        "type": "Add Content With Different Selections",
         "parameters": {
-            "name": "Pennywise",
-            "city": "Derry",
-            "state": "Maine"
+            "capitals": "Mexico City,Jerusalem,Rome",
+			"states": "New York"
         },
-        "endpoint": "IT ${unique}",
-        "plugin": "CommitSourcePlugin/1.1"
+        "endpoint": "Globe ${unique}",
+        "plugin": "42_CC_manifest/2.0.1"
     }],
     "parameters": [{
         "name": "unique",
