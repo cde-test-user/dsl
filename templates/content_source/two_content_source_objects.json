@@ -1,0 +1,27 @@
+{
+    "objects": [{
+        "applicationVersion": "Local|ContentSource Application ${unique}/1991",
+        "name": "Imported Content Source ${unique}",
+        "kind": "ContentSource",
+        "type": "Add Content With Different Selections",
+        "parameters": {
+            "capitals": "Mexico City,Jerusalem,Rome"
+        },
+        "endpoint": "Globe ${unique}",
+        "plugin": "42_CC_manifest/2.0.1"
+    },{
+        "applicationVersion": "Local|ContentSource Application ${unique}/1991",
+        "name": "Imported Content Source2 ${unique}",
+        "kind": "ContentSource",
+        "type": "Add Content With Different Selections",
+        "parameters": {
+            "capitals": "Mexico City,Jerusalem,Rome"
+        },
+        "endpoint": "Globe ${unique}",
+        "plugin": "42_CC_manifest/2.0.1"
+    }],
+    "parameters": [{
+        "name": "unique",
+        "value": "unique"
+    }]
+}
