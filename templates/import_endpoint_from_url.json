@@ -12,6 +12,6 @@
             "useProxy": "false",
             "url": "https://rally1.rallydev.com"
         },
-        "plugin": "Rally Platform/2.3"
+        "plugin": "Rally Platform/2.2"
     }]
 }
