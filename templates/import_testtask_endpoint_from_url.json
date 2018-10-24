@@ -1,0 +1,16 @@
+{
+    "objects": [{
+        "environments": [],
+        "applications": [],
+        "description": "DSL test",
+        "name": "DSL_Import_From_Repository",
+        "kind": "Endpoint",
+        "type": "TestTaskEndpoint",
+        "parameters": {
+            "url": "https://something.url",
+            "username": "username",
+            "password": "password"
+        },
+        "plugin": "TestTask/1.0"
+    }]
+}
