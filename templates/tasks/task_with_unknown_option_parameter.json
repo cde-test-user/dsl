@@ -1,0 +1,23 @@
+{
+	"objects": [{
+		"phase": "Release For Import ${unique}/25.25/Phase For Import ${unique}",
+		"isDisabled": false,
+		"name": "Lets Go",
+		"kind": "Task",
+		"type": "Travel Task",
+		"endpoint": "World ${unique}",
+		"plugin": "Model Test Plugin/1.0",
+		"parameters": {
+			"Source": "Italy",
+			"Destination": "China",
+			"Traveller": "Marco Polo",
+			"Method": "Camel",
+			"VIP": "true",
+			"States": "Ghana,New Zeland,Singapore"
+		}
+	}],
+    "parameters": [{
+        "name": "unique",
+        "value": "unique"
+    }]
+}
