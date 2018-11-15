@@ -1,8 +1,7 @@
 {
 	"reference": {
-		"password": "N0li0123",
-		"url": "https://raw.githubusercontent.com/cde-test-user/dsl/master/templates/yael/yael_import_release",
-		"user": "cde-test-user"
+		"fileSource": "N0li0123",
+		"fileName": "templates/yael/yael_import_release"
 	},
 	"parameters": [{
 		"name": "release_name",
