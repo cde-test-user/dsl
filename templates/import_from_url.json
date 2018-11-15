@@ -1,5 +1,6 @@
 {
 	"reference": {
-		"fileSource": "tests-file-source"
+		"fileSource": "tests-file-source",
+		"fileName": "templates/import_good_animals1.json"
 	}
 }
