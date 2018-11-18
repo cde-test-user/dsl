@@ -58,6 +58,7 @@
 		},
 		"type": "Post message"
 	},
+	
 	{
 		"isDisabled": false,
 		"phase": "${release_name} release/${version}/Phase B",
