@@ -20,7 +20,7 @@
 	}],
 	"parameters": [{
 		"name": "animal",
-		"value": "pelican"
+		"value": "dog"
 	},
 	{
 		"name": "age",
