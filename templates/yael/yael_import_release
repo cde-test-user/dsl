@@ -4,7 +4,6 @@
 		"name": "123.2556",
 		"kind": "ApplicationVersion"
 	},
-	
 	{
 		"applicationVersions": ["Local|An Application/123.2556"],
 		"ownerParties": ["yaelcdd01@gmail.com",
