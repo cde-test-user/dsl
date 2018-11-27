@@ -12,6 +12,7 @@
 		"description": "<p>${description}</p>",
 		"name": "${release_name} release",
 		"kind": "Release"
+		
 	},
 	{
 		"release": "${release_name} release/${version}",
