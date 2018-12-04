@@ -5,4 +5,5 @@ describe('CA MSF Raffle UI Test - cdbu.io Environment', function() {
     element(by.css('[name="name"]')).sendKeys('Selenium Test User2');
     element(by.buttonText('I\'m In!')).click();
     });
+  
 });
