@@ -1,27 +1,83 @@
-TA1148733
-TA1139482
-https://raw.githubusercontent.com/cde-test-user/TA1155081dsl/master/templates
-F73060
-TA584061
-TA1169680
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+	"objects": [{
+		"application": "Local|app1",
+		"name": "11",
+		"kind": "ApplicationVersion"
+	},
+	{
+		"applicationVersion": "Local|app1/11",
+		"kind": "ContentSource"
+	},
+	{
+		"content": "gio['op",
+		"applicationVersion": "Local|app1/11",
+		"kind": "ContentItem"
+	},
+	{
+		"version": "11",
+		"runOnCreation": false,
+		"ownerParties": ["test@ca.com"],
+		"applicationVersions": ["Local|app1/11"],
+		"name": "r1",
+		"kind": "Release"
+	},
+	{
+		"value": "",
+		"scope": "PHASE_SCOPE",
+		"release": "r1/11",
+		"name": "t1",
+		"kind": "ReleaseToken"
+	},
+	{
+		"value": "",
+		"scope": "PHASE_SCOPE",
+		"release": "r1/11",
+		"name": "t4",
+		"kind": "ReleaseToken"
+	},
+	{
+		"isApprovalRequired": false,
+		"release": "r1/11",
+		"approvalGate": "MANUAL",
+		"skipTasksWithUnchangedApplications": false,
+		"name": "P1",
+		"kind": "Phase"
+	},
+	{
+		"isApprovalRequired": false,
+		"release": "r1/11",
+		"approvalGate": "MANUAL",
+		"previousPhase": "P1",
+		"skipTasksWithUnchangedApplications": false,
+		"name": "P12",
+		"kind": "Phase"
+	},
+	{
+		"isApprovalRequired": false,
+		"release": "r1/11",
+		"approvalGate": "MANUAL",
+		"previousPhase": "P12",
+		"skipTasksWithUnchangedApplications": false,
+		"name": "P11",
+		"kind": "Phase"
+	},
+	{
+		"phase": "r1/11/P1",
+		"isDisabled": false,
+		"name": "t1",
+		"kind": "Task"
+	},
+	{
+		"previousTasks": ["t1"],
+		"phase": "r1/11/P1",
+		"isDisabled": false,
+		"name": "r",
+		"kind": "Task"
+	},
+	{
+		"phase": "r1/11/P12",
+		"isDisabled": false,
+		"name": "T",
+		"kind": "Task"
+	}]
+}
