@@ -1,0 +1,95 @@
+{
+	"objects": [{
+		"application": "Local|robotApp1",
+		"name": "1",
+		"kind": "ApplicationVersion"
+	},
+	{
+		"applicationVersion": "Local|robotApp1/1",
+		"name": "cs",
+		"kind": "ContentSource",
+		"plugin": "Rally Platform/2.3",
+		"endpoint": "ra_ep",
+		"parameters": {
+			"project": "Nolio Automation",
+			"type": "Defect,Task"
+		},
+		"type": "Add Content"
+	},
+	{
+		"runOnCreation": false,
+		"applicationVersions": ["Local|robotApp1/1"],
+		"ownerParties": ["benni05"],
+		"version": "1",
+		"name": "test_release_dsl_1",
+		"kind": "Release"
+	},
+	{
+		"approvalGate": "MANUAL",
+		"isApprovalRequired": false,
+		"skipTasksWithUnchangedApplications": false,
+		"release": "test_release_dsl_1/1",
+		"name": "P1",
+		"kind": "Phase"
+	},
+	{
+		"approvalGate": "MANUAL",
+		"isApprovalRequired": true,
+		"skipTasksWithUnchangedApplications": false,
+		"previousPhase": "P1",
+		"release": "test_release_dsl_1/1",
+		"name": "P1 - Copy",
+		"kind": "Phase"
+	},
+	{
+		"approvalGate": "MANUAL",
+		"isApprovalRequired": true,
+		"skipTasksWithUnchangedApplications": true,
+		"previousPhase": "P1 - Copy",
+		"release": "test_release_dsl_1/1",
+		"name": "P1 - Copy - Copy4",
+		"kind": "Phase"
+	},
+	{
+		"isDisabled": false,
+		"phase": "test_release_dsl_1/1/P1",
+		"name": "T1",
+		"kind": "Task",
+		"plugin": "Rally Platform/2.3",
+		"endpoint": "ra_ep",
+		"parameters": {
+			"testcasetype": "All",
+			"rallyitemids": "11",
+			"project": "Nolio Automation"
+		},
+		"type": "Check Test Case Results"
+	},
+	{
+		"isDisabled": false,
+		"phase": "test_release_dsl_1/1/P1 - Copy",
+		"name": "T1",
+		"kind": "Task",
+		"plugin": "Rally Platform/2.3",
+		"endpoint": "ra_ep",
+		"parameters": {
+			"testcasetype": "All",
+			"rallyitemids": "11",
+			"project": "Nolio Automation"
+		},
+		"type": "Check Test Case Results"
+	},
+	{
+		"isDisabled": false,
+		"phase": "test_release_dsl_1/1/P1 - Copy - Copy4",
+		"name": "T1",
+		"kind": "Task",
+		"plugin": "Rally Platform/2.3",
+		"endpoint": "ra_ep",
+		"parameters": {
+			"testcasetype": "All",
+			"rallyitemids": "11",
+			"project": "Nolio Automation"
+		},
+		"type": "Check Test Case Results"
+	}]
+}
