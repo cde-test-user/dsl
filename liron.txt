@@ -1,9 +1,9 @@
 AFBT_DTV_MDEV_15-6
 AFBT_600_32-25
-DE292461
+
 SWCDDTRAIN-12
 SWCDDTRAIN-52
 SWCDDTRAIN-4932
 SWCDDTRAIN-39
 
-https://nginx-plus-cde-6-4-server-ort.app.unvnp1.cs.saas.ca.com/cdd/releases/25
+DE292461
