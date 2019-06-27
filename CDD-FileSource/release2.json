@@ -3,8 +3,7 @@
 		"application": "Local|robotApp1",
 		"name": "1",
 		"kind": "ApplicationVersion"
-	},
-		    
+	},    
 	{
 		"applicationVersion": "Local|robotApp1/1",
 		"name": "cs",
