@@ -1,0 +1,31 @@
+{
+	"objects": [
+		{
+			"name": "Billing",
+			"kind": "Application"
+		},
+		{
+			"applications": [
+				"Local|Billing"
+			],
+			"name": "Test",
+			"kind": "Environment"
+		},
+		{
+			"applications": [
+				"Local|Billing"
+			],
+			"isProduction": true,
+			"name": "Production",
+			"kind": "Environment"
+		},
+		{
+			"applications": [
+				"Local|Billing"
+			],
+			"isProduction": false,
+			"name": "Development",
+			"kind": "Environment"
+		}
+	]
+}
