@@ -1,2 +1,13 @@
 {
+    "objects": [
+        {
+            "name": "Travel Application",
+            "kind": "Application"
+        }
+        {
+            "application": "Local|Travel Application",
+            "name": "7.0",
+            "kind": "ApplicationVersion"
+        }
+    ]
 }
