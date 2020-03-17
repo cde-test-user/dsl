@@ -1,0 +1,18 @@
+{
+    "objects": [
+        {
+            "name": "Application With Commit Source",
+            "kind": "Application"
+        },
+        {
+            "application": "Local|Application With Commit Source",
+            "kind": "CommitSource",
+            "plugin": "GitHub/1.0.2",
+            "endpoint": "Github Endpoint",
+            "parameters": {
+                "owner": "cdd-test-user"
+            },
+            "type": "Get Commit Messages"
+        }
+    ]
+}
