@@ -1,0 +1,17 @@
+{
+    "objects": [
+        {
+            "name": "Application With Content Source",
+            "kind": "Application"
+        },
+        {
+            "application": "Local|Application With Content Source",
+            "name": "Iteration 2",
+            "kind": "ContentSource",
+            "plugin": "Rally®/2.10",
+            "endpoint": "Rally Endpoint",
+            "type": "Add Content"
+        }
+    ]
+}
+
