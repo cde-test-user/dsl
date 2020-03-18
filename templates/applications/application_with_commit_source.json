@@ -5,7 +5,6 @@
             "kind": "Application"
         },
         {
-            "name": "Commit Source",
             "application": "Local|Application With Commit Source",
             "kind": "CommitSource",
             "plugin": "GitHub/1.0.2",
